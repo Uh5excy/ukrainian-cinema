@@ -1,4 +1,4 @@
-/* Шапка та навігація */
+п»ї/* РЁР°РїРєР° С‚Р° РЅР°РІС–РіР°С†С–СЏ */
 header {
     background: #172635;
     padding: 20px;
@@ -37,7 +37,7 @@ header {
             color: #ffd54f;
         }
 
-/* Головний екран (Hero Section) */
+/* Р“РѕР»РѕРІРЅРёР№ РµРєСЂР°РЅ (Hero Section) */
 .hero {
     background: #203b56;
     text-align: center;
@@ -71,7 +71,7 @@ header {
         transform: scale(1.05);
     }
 
-/* Про українське кіно */
+/* РџСЂРѕ СѓРєСЂР°С—РЅСЃСЊРєРµ РєС–РЅРѕ */
 .about {
     padding: 60px 10%;
     background: #172635;
@@ -87,7 +87,7 @@ header {
         line-height: 1.6;
     }
 
-/* Хронологія */
+/* РҐСЂРѕРЅРѕР»РѕРіС–СЏ */
 .history-section {
     padding: 60px 10%;
     background: #101820;
@@ -118,7 +118,7 @@ header {
     color: #cccccc;
 }
 
-/* Картки українських фільмів */
+/* РљР°СЂС‚РєРё СѓРєСЂР°С—РЅСЃСЊРєРёС… С„С–Р»СЊРјС–РІ */
 .films {
     padding: 60px 10%;
     background: #172635;
@@ -144,7 +144,7 @@ header {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-    /* Ефекти для карток */
+    /* Р•С„РµРєС‚Рё РґР»СЏ РєР°СЂС‚РѕРє */
     .film-card:hover {
         transform: scale(1.03);
         box-shadow: 0 8px 20px rgba(255, 213, 79, 0.2);
@@ -178,7 +178,7 @@ header {
     color: #e0e0e0;
 }
 
-/* Зовнішнє посилання у картках фільмів */
+/* Р—РѕРІРЅС–С€РЅС” РїРѕСЃРёР»Р°РЅРЅСЏ Сѓ РєР°СЂС‚РєР°С… С„С–Р»СЊРјС–РІ */
 .detail-link {
     display: inline-block;
     margin-top: 15px;
@@ -192,7 +192,7 @@ header {
         text-decoration: underline;
     }
 
-/* Відомі режисери */
+/* Р’С–РґРѕРјС– СЂРµР¶РёСЃРµСЂРё */
 .directors {
     padding: 60px 10%;
     background: #101820;
@@ -223,7 +223,7 @@ header {
     color: #d0d0d0;
 }
 
-/* Улюблений фільм */
+/* РЈР»СЋР±Р»РµРЅРёР№ С„С–Р»СЊРј */
 .favorite-section {
     padding: 60px 10%;
     background: #172635;
@@ -243,7 +243,7 @@ header {
     line-height: 1.6;
 }
 
-/* Підвал вебсайту */
+/* РџС–РґРІР°Р» РІРµР±СЃР°Р№С‚Сѓ */
 footer {
     text-align: center;
     padding: 30px;
@@ -260,7 +260,7 @@ footer {
             text-decoration: underline;
         }
 
-/* Адаптивна верстка */
+/* РђРґР°РїС‚РёРІРЅР° РІРµСЂСЃС‚РєР° */
 @media (max-width: 768px) {
     .film-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -288,7 +288,7 @@ footer {
     }
 }
 
-/* Плавна прокрутка сторінки */
+/* РџР»Р°РІРЅР° РїСЂРѕРєСЂСѓС‚РєР° СЃС‚РѕСЂС–РЅРєРё */
 html {
     scroll-behavior: smooth;
 }
